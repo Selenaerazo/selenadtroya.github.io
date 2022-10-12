@@ -1,0 +1,89 @@
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+  }
+  
+
+
+html {
+  font-family: 'Josefin Sans', sans-serif;;
+  font-size: 24px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.411)), url('../imagenes/vlad-gorshkov-G1jbCAqp5sk-unsplash.jpg');
+
+
+}
+
+.sidebar {
+  position: fixed;
+  width: 13%;
+  height: 100vh;
+  background: #000000;
+  font-size: 24px;
+  font-family: 'Lobster', cursive;
+ 
+}
+
+
+.nav {
+  position: relative;
+  margin: 0 10%;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: bold;
+}
+
+.nav ul {
+  list-style: none;
+
+}  
+ li {
+    position: relative;
+    margin: 2.2em 0;
+
+ } 
+    a {
+      line-height: 4em;
+      color: rgba(rgb(255, 255, 255), 0.35);
+      display: block;
+      transition: all ease-out 300ms;
+    }
+    
+
+
+
+.canal-youtube {
+  position: relative;
+  width: 75%;
+  float: right;
+  height: 100vh;
+}
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  a {
+    position: relative;
+  }
+    img {
+      width: 90px;
+      height: 90px;
+    }
+  
+  
+  p {
+  
+    font-size: 1em;
+    color: #FFF;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+  }
