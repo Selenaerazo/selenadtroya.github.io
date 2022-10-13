@@ -1,0 +1,171 @@
+/* footer*/
+.footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../imagenes/fortnite.jpg');
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+    background-position-y: center;
+    padding-top: 40px;
+}
+
+.footer img{
+    width: 360px;
+}
+
+
+
+.title-descrip {
+    margin-top: 40px;
+    margin-bottom: 50px;
+   
+    color: rgb(255, 255, 255);
+  
+}
+
+    .title-descrip h3 {
+        font-size: 28px;
+        letter-spacing: 3px;
+        position: relative;
+        margin-bottom: 20px;
+       
+        color: rgb(255, 255, 255);
+        padding-bottom: 0.5em;
+    }
+
+        .title-descrip h4::after {
+            content: '';
+            background: #ffffff;
+            width: 80%;
+            height: 2px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
+    .title-descrip p {
+        font-size: 20px;
+        width: 400px;
+        text-align: justify;
+    }
+
+
+    @media (max-width: 414px){
+      .title-descrip p{  font-size: 16px;
+        width: 350px;
+        text-align: justify;
+        margin-left: 10px;
+      }
+    }
+
+
+.squestion-img {
+    margin-top: 40px;
+    margin-bottom: 50px;
+ 
+   
+  margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+.enlaces-redes a {
+  color:  rgba(174, 100, 235, 0.904);
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.2s;
+margin-left: 20px;
+
+}
+
+.enlaces-redes{
+  margin-top: 40px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+
+
+
+    .enlaces-redes a:hover {
+        color: rgb(255, 255, 255);
+        transition: 0.2s;
+        text-shadow: 1px 1px 20px rgba(0,0,0,1);
+        text-decoration: none
+
+    }
+
+
+
+.mail-place {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color:  rgb(255, 255, 255);
+  
+    text-align: right;
+}
+
+
+    .mail-place h4 {
+        font-size: 25px;
+        letter-spacing: 3px;
+        position: relative;
+        margin-bottom: 20px;
+        color: rgb(255, 255, 255);
+        padding-bottom: 0.5em;
+    }
+
+
+      
+
+
+
+    .mail-place li {
+        list-style: none;
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+
+
+    .mail-place a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        letter-spacing: 3px;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.2s;
+    }
+
+
+        .mail-place a:hover {
+            color: #fff;
+            transition: 0.2s;
+            text-shadow: 1px 1px 20px rgba(0,0,0,1);
+        }
+
+
+@media screen and (max-width:1000px) {
+    .title-descrip {
+        text-align: center;
+    }
+
+        .title-descrip h4::after {
+            left: 40%;
+        }
+}
+
+@media screen and (max-width:1000px) {
+    .mail-place {
+        text-align: center;
+    }
+
+        .mail-place h4::after {
+            left: 40% !important;
+        }
+}
+
+
+
